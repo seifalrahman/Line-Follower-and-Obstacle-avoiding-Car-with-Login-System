@@ -1,0 +1,890 @@
+Archive member included because of file (symbol)
+
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./LCD.o (__mulsi3)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./LCD.o (__udivmodsi4)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./KPD.o (__do_copy_data)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./Timer_1.o (__do_clear_bss)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./EEPROM.o (__fixunssfsi)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./EEPROM.o (__mulsf3)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                              ./LINE_FOLLOWER.o (__divsf3)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./EEPROM.o (__gtsf2)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./EEPROM.o (__ltsf2)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                              ./ULTRASONIC.o (__floatunsisf)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o) (__clzsi2)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o) (__clz_tab)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./DIO_Prg.o
+LOAD ./EEPROM.o
+LOAD ./IIC.o
+LOAD ./KPD.o
+LOAD ./LCD.o
+LOAD ./LINE_FOLLOWER.o
+LOAD ./MOTOR.o
+LOAD ./Timer_1.o
+LOAD ./UART.o
+LOAD ./ULTRASONIC.o
+LOAD ./interrupt0.o
+LOAD ./ir.o
+LOAD ./main.o
+LOAD c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x45c2
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./DIO_Prg.o
+ .text          0x00000092        0x0 ./EEPROM.o
+ .text          0x00000092        0x0 ./IIC.o
+ .text          0x00000092        0x0 ./KPD.o
+ .text          0x00000092        0x0 ./LCD.o
+ .text          0x00000092        0x0 ./LINE_FOLLOWER.o
+ .text          0x00000092        0x0 ./MOTOR.o
+ .text          0x00000092        0x0 ./Timer_1.o
+ .text          0x00000092        0x0 ./UART.o
+ .text          0x00000092        0x0 ./ULTRASONIC.o
+ .text          0x00000092        0x0 ./interrupt0.o
+ .text          0x00000092        0x0 ./ir.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000092        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000092        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x58 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000092                __fixunssfsi
+ .text          0x000000ea      0x354 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000382                __subsf3
+                0x000003e4                __addsf3
+ .text          0x0000043e      0x1f4 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000043e                __mulsf3
+ .text          0x00000632      0x158 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                0x00000632                __divsf3
+ .text          0x0000078a       0x60 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x0000078a                __gtsf2
+ .text          0x000007ea       0x60 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x000007ea                __gesf2
+ .text          0x0000084a       0x60 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x0000084a                __ltsf2
+ .text          0x000008aa       0xa8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x000008aa                __fixsfsi
+ .text          0x00000952        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00000952       0xf2 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                0x00000952                __floatunsisf
+ .text          0x00000a44        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000a44        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000a44       0x9e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                0x00000a44                __clzsi2
+ .text          0x00000ae2      0x1aa c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x00000ae2                __pack_f
+ .text          0x00000c8c       0xf0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000c8c                __unpack_f
+ .text          0x00000d7c       0xb2 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000d7c                __fpcmp_parts_f
+ .text          0x00000e2e        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00000e2e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DIO_VidSetPinDirection
+                0x00000e2e      0x200 ./DIO_Prg.o
+                0x00000e2e                DIO_VidSetPinDirection
+ .text.DIO_VidSetPinValue
+                0x0000102e      0x200 ./DIO_Prg.o
+                0x0000102e                DIO_VidSetPinValue
+ .text.DIO_U8GetPinValue
+                0x0000122e      0x104 ./DIO_Prg.o
+                0x0000122e                DIO_U8GetPinValue
+ .text.DIO_VidSetPortValue
+                0x00001332       0x82 ./DIO_Prg.o
+                0x00001332                DIO_VidSetPortValue
+ .text.DIO_VidSetPortDirection
+                0x000013b4       0x82 ./DIO_Prg.o
+                0x000013b4                DIO_VidSetPortDirection
+ .text.DIO_VidToggelPinValue
+                0x00001436       0xfa ./DIO_Prg.o
+                0x00001436                DIO_VidToggelPinValue
+ .text.EEPROM_VidWriteByte
+                0x00001530      0x132 ./EEPROM.o
+                0x00001530                EEPROM_VidWriteByte
+ .text.EEPROM_VidReadByte
+                0x00001662       0x52 ./EEPROM.o
+                0x00001662                EEPROM_VidReadByte
+ .text.writeStringToEEPROM
+                0x000016b4       0x5c ./EEPROM.o
+                0x000016b4                writeStringToEEPROM
+ .text.readStringFromEEPROM
+                0x00001710       0x6e ./EEPROM.o
+                0x00001710                readStringFromEEPROM
+ .text.TWI_VidMasterInit
+                0x0000177e       0x40 ./IIC.o
+                0x0000177e                TWI_VidMasterInit
+ .text.TWI_VidSlaveInit
+                0x000017be       0x3a ./IIC.o
+                0x000017be                TWI_VidSlaveInit
+ .text.TWI_VidStartCondition
+                0x000017f8       0x34 ./IIC.o
+                0x000017f8                TWI_VidStartCondition
+ .text.TWI_VidStopCondition
+                0x0000182c       0x2a ./IIC.o
+                0x0000182c                TWI_VidStopCondition
+ .text.TWI_VidSlaveAddressWrite
+                0x00001856       0x52 ./IIC.o
+                0x00001856                TWI_VidSlaveAddressWrite
+ .text.TWI_VidSlaveAddRead
+                0x000018a8       0x52 ./IIC.o
+                0x000018a8                TWI_VidSlaveAddRead
+ .text.TWI_VidMasterSendData
+                0x000018fa       0x34 ./IIC.o
+                0x000018fa                TWI_VidMasterSendData
+ .text.TWI_VidSlaveReadData
+                0x0000192e       0x4a ./IIC.o
+                0x0000192e                TWI_VidSlaveReadData
+ .text.TWI_VidMasterReadData
+                0x00001978       0x2c ./IIC.o
+                0x00001978                TWI_VidMasterReadData
+ .text.KPD_VidInit
+                0x000019a4       0x1e ./KPD.o
+                0x000019a4                KPD_VidInit
+ .text.KPD_U8PressedKey
+                0x000019c2      0x1d6 ./KPD.o
+                0x000019c2                KPD_U8PressedKey
+ .text.LCD_VidInit
+                0x00001b98      0x3ee ./LCD.o
+                0x00001b98                LCD_VidInit
+ .text.LCD_VidSendCMD
+                0x00001f86      0x13c ./LCD.o
+                0x00001f86                LCD_VidSendCMD
+ .text.LCD_VidSendChar
+                0x000020c2      0x13c ./LCD.o
+                0x000020c2                LCD_VidSendChar
+ .text.LCD_VidSendString
+                0x000021fe       0x52 ./LCD.o
+                0x000021fe                LCD_VidSendString
+ .text.LCD_VidLocation
+                0x00002250       0x4e ./LCD.o
+                0x00002250                LCD_VidLocation
+ .text.LCD_VidSendSpecialChar
+                0x0000229e       0x5e ./LCD.o
+                0x0000229e                LCD_VidSendSpecialChar
+ .text.LCD_VidSendSingleInt
+                0x000022fc      0x142 ./LCD.o
+                0x000022fc                LCD_VidSendSingleInt
+ .text.LCD_VidSendMultiInt
+                0x0000243e      0x128 ./LCD.o
+                0x0000243e                LCD_VidSendMultiInt
+ .text.LCD_Clear
+                0x00002566       0x22 ./LCD.o
+                0x00002566                LCD_Clear
+ .text.FollowTheLine
+                0x00002588      0x3d4 ./LINE_FOLLOWER.o
+                0x00002588                FollowTheLine
+ .text.MOTOR_init
+                0x0000295c       0x2a ./MOTOR.o
+                0x0000295c                MOTOR_init
+ .text.Rotate_right
+                0x00002986       0x46 ./MOTOR.o
+                0x00002986                Rotate_right
+ .text.Rotate_left
+                0x000029cc       0x46 ./MOTOR.o
+                0x000029cc                Rotate_left
+ .text.GoStraight
+                0x00002a12       0x46 ./MOTOR.o
+                0x00002a12                GoStraight
+ .text.Timer1_VidTimer1Normal
+                0x00002a58       0x70 ./Timer_1.o
+                0x00002a58                Timer1_VidTimer1Normal
+ .text.Timer1_VidTimer1FPWM
+                0x00002ac8       0x98 ./Timer_1.o
+                0x00002ac8                Timer1_VidTimer1FPWM
+ .text.ICU_VidInit
+                0x00002b60       0x2a ./Timer_1.o
+                0x00002b60                ICU_VidInit
+ .text.ICU_VidEdgeSelect
+                0x00002b8a       0x56 ./Timer_1.o
+                0x00002b8a                ICU_VidEdgeSelect
+ .text.ICU_U16ReadICR
+                0x00002be0       0x16 ./Timer_1.o
+                0x00002be0                ICU_U16ReadICR
+ .text.ICU_VidINT_Disable
+                0x00002bf6       0x1c ./Timer_1.o
+                0x00002bf6                ICU_VidINT_Disable
+ .text.ICU_VidSetCallBack
+                0x00002c12       0x24 ./Timer_1.o
+                0x00002c12                ICU_VidSetCallBack
+ .text.__vector_6
+                0x00002c36       0x66 ./Timer_1.o
+                0x00002c36                __vector_6
+ .text.UART_VidInit
+                0x00002c9c       0xac ./UART.o
+                0x00002c9c                UART_VidInit
+ .text.UART_VidSendData
+                0x00002d48       0x38 ./UART.o
+                0x00002d48                UART_VidSendData
+ .text.UART_VidReciveData
+                0x00002d80       0x22 ./UART.o
+                0x00002d80                UART_VidReciveData
+ .text.ULTRASONIC_init
+                0x00002da2       0x46 ./ULTRASONIC.o
+                0x00002da2                ULTRASONIC_init
+ .text.ultrasonic_in_action
+                0x00002de8      0x3ec ./ULTRASONIC.o
+                0x00002de8                ultrasonic_in_action
+ .text.Obstacle_avoiding
+                0x000031d4      0x652 ./ULTRASONIC.o
+                0x000031d4                Obstacle_avoiding
+ .text.EXTI_VidInit
+                0x00003826       0x38 ./interrupt0.o
+                0x00003826                EXTI_VidInit
+ .text.EXTI_VidGIE
+                0x0000385e       0x1c ./interrupt0.o
+                0x0000385e                EXTI_VidGIE
+ .text.EXTI_VidSetCallBack
+                0x0000387a       0x36 ./interrupt0.o
+                0x0000387a                EXTI_VidSetCallBack
+ .text.__vector_1
+                0x000038b0       0x66 ./interrupt0.o
+                0x000038b0                __vector_1
+ .text.__vector_2
+                0x00003916       0x66 ./interrupt0.o
+                0x00003916                __vector_2
+ .text.__vector_3
+                0x0000397c       0x66 ./interrupt0.o
+                0x0000397c                __vector_3
+ .text.IRArrayOf5_Init
+                0x000039e2       0x1c ./ir.o
+                0x000039e2                IRArrayOf5_Init
+ .text.getIR    0x000039fe       0x66 ./ir.o
+                0x000039fe                getIR
+ .text.INT0_Init
+                0x00003a64       0x54 ./main.o
+                0x00003a64                INT0_Init
+ .text.main     0x00003ab8      0xa16 ./main.o
+                0x00003ab8                main
+ .text.libgcc   0x000044ce       0x3e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x000044ce                __mulsi3
+ .text.libgcc   0x0000450c       0x44 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000450c                __udivmodsi4
+ .text.libgcc   0x00004550        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00004550        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00004550        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00004550       0x38 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00004550                __prologue_saves__
+ .text.libgcc   0x00004588       0x36 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00004588                __epilogue_restores__
+                0x000045be                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000045be        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000045be                exit
+                0x000045be                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000045be        0x4 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000045c2                _etext = .
+
+.data           0x00800060      0x166 load address 0x000045c2
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./DIO_Prg.o
+ .data          0x00800060        0x0 ./EEPROM.o
+ .data          0x00800060        0x0 ./IIC.o
+ .data          0x00800060        0x0 ./KPD.o
+ .data          0x00800060        0x0 ./LCD.o
+ .data          0x00800060        0x0 ./LINE_FOLLOWER.o
+ .data          0x00800060        0x0 ./MOTOR.o
+ .data          0x00800060        0x0 ./Timer_1.o
+ .data          0x00800060        0x0 ./UART.o
+ .data          0x00800060       0x18 ./ULTRASONIC.o
+ .data          0x00800078        0x0 ./interrupt0.o
+ .data          0x00800078        0x0 ./ir.o
+ .data          0x00800078       0x2e ./main.o
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x008000a6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x008000a6        0x8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x008000a6                __thenan_sf
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x008000ae        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x008000ae      0x100 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x008000ae                __clz_tab
+ *(.data*)
+ .data.KPD_AU8KEYS
+                0x008001ae       0x10 ./KPD.o
+                0x008001ae                KPD_AU8KEYS
+ .data.KPD_AU8ROWS
+                0x008001be        0x4 ./KPD.o
+                0x008001be                KPD_AU8ROWS
+ .data.KPD_AU8COLS
+                0x008001c2        0x4 ./KPD.o
+                0x008001c2                KPD_AU8COLS
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008001c6                . = ALIGN (0x2)
+                0x008001c6                _edata = .
+                0x008001c6                PROVIDE (__data_end, .)
+
+.bss            0x008001c6        0xf
+                0x008001c6                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008001c6        0x0 ./DIO_Prg.o
+ .bss           0x008001c6        0x0 ./EEPROM.o
+ .bss           0x008001c6        0x0 ./IIC.o
+ .bss           0x008001c6        0x0 ./KPD.o
+ .bss           0x008001c6        0x0 ./LCD.o
+ .bss           0x008001c6        0x0 ./LINE_FOLLOWER.o
+ .bss           0x008001c6        0x0 ./MOTOR.o
+ .bss           0x008001c6        0x0 ./Timer_1.o
+ .bss           0x008001c6        0x0 ./UART.o
+ .bss           0x008001c6        0x0 ./ULTRASONIC.o
+ .bss           0x008001c6        0x0 ./interrupt0.o
+ .bss           0x008001c6        0x0 ./ir.o
+ .bss           0x008001c6        0x0 ./main.o
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x008001c6        0x0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.bss*)
+ .bss.ICU_PFCallBack
+                0x008001c6        0x2 ./Timer_1.o
+                0x008001c6                ICU_PFCallBack
+ .bss.pulse     0x008001c8        0x2 ./ULTRASONIC.o
+                0x008001c8                pulse
+ .bss.i         0x008001ca        0x1 ./ULTRASONIC.o
+                0x008001ca                i
+ .bss.distance  0x008001cb        0x4 ./ULTRASONIC.o
+                0x008001cb                distance
+ .bss.EXTI_PTemp
+                0x008001cf        0x6 ./interrupt0.o
+                0x008001cf                EXTI_PTemp
+ *(COMMON)
+                0x008001d5                PROVIDE (__bss_end, .)
+                0x000045c2                __data_load_start = LOADADDR (.data)
+                0x00004728                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001d5        0x0
+                0x008001d5                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001d5                PROVIDE (__noinit_end, .)
+                0x008001d5                _end = .
+                0x008001d5                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x41e8
+ *(.stab)
+ .stab          0x00000000      0x6fc ./DIO_Prg.o
+ .stab          0x000006fc      0x45c ./EEPROM.o
+                                0x69c (size before relaxing)
+ .stab          0x00000b58      0x414 ./IIC.o
+                                0x660 (size before relaxing)
+ .stab          0x00000f6c      0x360 ./KPD.o
+                                0x5ac (size before relaxing)
+ .stab          0x000012cc      0xa50 ./LCD.o
+                                0xc84 (size before relaxing)
+ .stab          0x00001d1c      0x480 ./LINE_FOLLOWER.o
+                                0x6d8 (size before relaxing)
+ .stab          0x0000219c      0x258 ./MOTOR.o
+                                0x4a4 (size before relaxing)
+ .stab          0x000023f4      0x3c0 ./Timer_1.o
+                                0x60c (size before relaxing)
+ .stab          0x000027b4      0x2b8 ./UART.o
+                                0x504 (size before relaxing)
+ .stab          0x00002a6c      0x978 ./ULTRASONIC.o
+                                0xbc4 (size before relaxing)
+ .stab          0x000033e4      0x2ac ./interrupt0.o
+                                0x504 (size before relaxing)
+ .stab          0x00003690      0x1b0 ./ir.o
+                                0x3fc (size before relaxing)
+ .stab          0x00003840      0x9a8 ./main.o
+                                0xbf4 (size before relaxing)
+
+.stabstr        0x00000000     0x1380
+ *(.stabstr)
+ .stabstr       0x00000000     0x1380 ./DIO_Prg.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000080       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000100       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000120       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000140       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000160       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000180       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x1f2
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000008d       0x1e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x000000ab       0x1e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000c9       0x1e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000e7       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000107       0x22 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000129       0x24 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x0000014d       0x1f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x0000016c       0x1f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x0000018b       0x21 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x000001ac       0x26 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x000001d2       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x240b
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x3fc c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_info    0x00000dac      0x27f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000102b      0x27f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x000012aa      0x27f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x00001529      0x2b0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000017d9      0x12c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001905      0x206 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00001b0b      0x117 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_info    0x00001c22      0x2df c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001f01      0x251 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00002152      0x210 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00002362       0xa9 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1386
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x216 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000678      0x15a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000007d2      0x15a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000092c      0x15a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000a86      0x17f c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00000c05       0xad c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000cb2      0x157 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00000e09       0xc4 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000ecd      0x1c0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x0000108d      0x154 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x000011e1      0x13b c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x0000131c       0x6a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x11d6
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f      0x1d5 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_line    0x00000764       0xd3 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000837       0xd3 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x0000090a       0xd3 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x000009dd      0x109 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000ae6       0x90 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000b76      0x133 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00000ca9       0xa5 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_line    0x00000d4e      0x18a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000ed8      0x14b c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00001023      0x137 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x0000115a       0x7c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x1c0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_frame   0x000000a0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000c0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000e0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000100       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000120       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000140       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000160       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000180       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x000001a0       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x2f6
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233       0x35 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000268        0x8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000270        0x8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000278        0x8 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000280        0xa c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000028a       0x21 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x000002ab       0x20 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x000002cb       0x10 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002db        0xb c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x000002e6       0x10 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000      0x96e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0xc0 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_loc     0x00000522       0x3c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000055e       0x3c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000059a       0x3c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x000005d6       0x7e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000654       0x4c c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x000006a0       0x94 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000734      0x13e c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00000872       0xac c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000091e       0x50 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(FINAL_ITI_MCU1.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 c:/users/seif alrahman/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
